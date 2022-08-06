@@ -1,2 +1,2 @@
-# Hackaton-1-
-Hackaton 1
+# Hackathon-1-
+Hackathon 1
