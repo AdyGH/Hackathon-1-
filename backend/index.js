@@ -12,7 +12,7 @@ const movies = [
     stars: 5,
     genres: ["action"],
     description: "The cars are both fast and furious.",
-    image: "string-encoded-image",
+    image: "https://assets.cinepolisklic.com/cmsklicia/movieimages/minions/poster_originalsize_250X375.jpg",
     preview: "https://www.youtube.com/watch?v=FUK2kdPsBws",
   },
   {
@@ -20,7 +20,7 @@ const movies = [
     stars: 4.69,
     genres: ["romance", "drama"],
     description: "Mike is magical.",
-    image: "string-encoded-image",
+    image: "https://cdn11.bigcommerce.com/s-lj8wphc2lt/images/stencil/1280x1280/products/634/1602/BBDA-web__73193.1651598061.jpg",
     preview: "https://www.youtube.com/watch?v=VEhYnUr0EDE",
   },
 ];

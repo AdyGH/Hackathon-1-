@@ -91,11 +91,12 @@ function App() {
           <div class="row"> {/* Primer renglòn de peliculas */}
 
             {data.movies.map(function(movie, i){
+                console.log(movie, "hi")
                 return (
                 <div class="columna columa-33">
                   <div class="bloque-servicio">
                     <div class="bloque-img-servicio cuadrado-perfecto">
-                      <img src={image}/>
+                      <img src={movie.image}/>
                     </div>
                     <div class="bloque-contenido-servicio">
                       <h3>{movie.name}</h3>
