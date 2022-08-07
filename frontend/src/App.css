@@ -125,11 +125,11 @@ header .container nav a
 
 .boton.boton-blanco 
 {
-	color: red;
+	color: blue;
 	background-color: white; 
 	font-size: 16px;
 	font-weight: bold;  
-	border: 1px solid red;
+	border: 1px solid blue;
 }
 
 .cuadrado-perfecto
@@ -235,7 +235,8 @@ header .container nav a
 #inicio img
 {
 	width: 100%; /*los elementos de tipo inline tienen espacios en sus costados, los bloque no porque abarcan todo el ancho */
-	display: block;
+	height: 600px;
+  display: block;
 }
 
 #inicio .bloque-inicio
@@ -251,13 +252,13 @@ header .container nav a
 #inicio .bloque-inicio h1
 { 
 	color: white;
-	font-size: 35px;
+	font-size: 40px;
 }
 
 #inicio .bloque-inicio p
 { 
 	color: white;
-	font-size: 16px;
+	font-size: 20px;
 }
 
 
