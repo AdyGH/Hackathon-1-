@@ -28,6 +28,8 @@
   color: #61dafb;
 }
 
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +38,344 @@
     transform: rotate(360deg);
   }
 }
+
+
+*
+{
+	box-sizing: border-box; 
+}
+
+body
+{
+	font-family: "roboto";
+	font-size: 13px;
+	color: black;
+}
+
+a
+{
+	display: inline-block;
+}
+
+p
+{
+	color:black;
+}
+header 
+{
+	padding: 15px 0;
+	position: fixed; 
+	top: 0;
+	left: 0;
+	z-index: 2;
+	background-color: white;
+	width: 100%; 
+}
+
+header .container 
+{ 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+header .container .logo
+{
+	width: 100px;
+}
+
+header .container nav a
+{
+	color:black;
+	text-decoration: none; 
+	margin: 0 15px 0 15px;
+}
+.boton 
+{
+	text-align: center;
+	text-decoration: none;
+	padding: 15px 30px;
+	border: none;
+}
+
+.boton.boton-rojo  
+{
+	color: white;
+	background-color: blue; 
+	font-size: 20px;
+	font-weight: bold;   
+}
+
+.boton.boton-negro  
+{
+	color: white;
+	background-color: black; 
+	font-size: 20px;
+	font-weight: bold;   
+}
+
+
+.boton.boton-negro:hover  
+{
+	color: black;
+	background-color: white; 
+}
+
+
+
+.boton.boton-blanco 
+{
+	color: red;
+	background-color: white; 
+	font-size: 16px;
+	font-weight: bold;  
+	border: 1px solid red;
+}
+
+.cuadrado-perfecto
+{
+	width: 100%;
+	padding-bottom: 100%; 
+	position: relative;
+
+}
+
+.cuadrado-perfecto img
+{
+	width: 100%;
+	height: 100%; 
+	object-fit: cover; 
+	object-position: center;
+	position: absolute;
+	top:0;
+	left: 0; 
+}
+
+.seccion
+{
+	padding-top:60px;
+	padding-bottom: 60px;
+}
+
+.container 
+{
+	width: 1140px;
+	margin: 0 auto 0 auto; /*los lados son automaticos y arriba y abajo cero, trabaja como macecillas de reloj */
+	padding-right: 15px;
+	padding-left: 15px;
+	position: relative;
+}
+
+.container-fluid
+{
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px; 
+	position: relative;
+}
+
+.row
+{
+	display: flex;
+	flex-wrap: wrap; 
+	margin-left: -15px;
+	margin-right: -15px;
+
+}
+
+.columna
+{
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+
+
+.columna-25
+{
+	width: 25%;
+}
+
+.columna-33
+{
+	width: 33.33%;
+}
+
+
+.columna-41
+{
+	width: 41.66%;
+}
+
+.columna-50
+{
+	width: 50%;
+}
+
+.empujar-58
+{
+	margin-left: 58.33%;
+}
+
+.empujar-50
+{
+	margin-left: 50%;
+}
+
+.empujar-0
+{
+	margin-left: 0;
+}
+
+#inicio
+{
+	position: relative; 
+}
+
+#inicio img
+{
+	width: 100%; /*los elementos de tipo inline tienen espacios en sus costados, los bloque no porque abarcan todo el ancho */
+	display: block;
+}
+
+#inicio .bloque-inicio
+{
+	position: absolute; 
+	top: 40%;
+	left: 50%;
+	width: 400px;
+	text-align: center;
+	margin-left: -200px; /*Solo el margen trabaja con números negativos */
+}
+
+#inicio .bloque-inicio h1
+{ 
+	color: white;
+	font-size: 35px;
+}
+
+#inicio .bloque-inicio p
+{ 
+	color: white;
+	font-size: 16px;
+}
+
+
+
+
+#servicios .bloque-servicio
+{
+	border: 1px solid grey;
+
+}
+#servicios .bloque-servicio .bloque-img-servicio img
+{
+	width: 100%;
+}
+
+#servicios .bloque-servicio .bloque-contenido-servicio
+{
+	padding: 15px;
+}
+
+#servicios .bloque-servicio .bloque-contenido-servicio h3
+{
+	margin-top: 0;
+	font-size: 25px;
+}
+
+#servicios .bloque-servicio .bloque-contenido-servicio h3
+{
+	margin-top: 0;
+	font-size: 25px;
+}
+
+
+#servicios .bloque-servicio .bloque-img-servicio.cuadrado-perfecto
+{
+	padding-bottom: 56.25%;
+}
+
+#cartelera h4
+{
+	position: absolute;
+	padding-right:15px;
+	padding-left:15px;
+	text-align: center;
+	top: 40%;
+	color: white;
+	font-size: 18px;
+	width: 100%; /* para cuando se alinie el texto sea al ancho de la imagen*/
+}
+
+
+#cartelera img
+{
+	filter: grayscale(1); 
+}
+
+#cartelera .cuadrado-perfecto:hover img 
+{
+	filter: grayscale(0); 
+
+}
+
+#cartelera .cuadrado-perfecto:hover h4 
+{
+	display:none;
+}
+
+#contactenos
+{
+	position: relative;
+}
+
+#contactenos iframe /el mapa/
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	filter: grayscale(1);
+}
+
+#contactenos form  
+{
+	padding: 60px;
+	background-color: red; 
+}
+
+#contactenos form .form-block
+{
+	width: 100%; 
+	margin-bottom: 15px; 
+}
+
+#contactenos form .form-block .form-control
+{
+	display: block;
+	height: 40px;
+	font-size: 16px;
+	border: 1px solid grey;
+	width: 100%;
+	padding: 5px 10px;
+}
+
+#contactenos form .form-block textarea
+{
+	display: block;
+	height: 100px;
+	font-size: 16px;
+	border: 1px solid grey;
+	width: 100%;
+	padding: 5px 10px;
+}
+
+#contactenos form .form-block.bloque-ultimo 
+{
+	margin-bottom: 0;
+}
+
+
+

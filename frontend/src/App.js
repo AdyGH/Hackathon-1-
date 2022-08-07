@@ -6,6 +6,7 @@ function App() {
 
   const name = "Minions"
   const description= "this is a description"
+  const image="https://assets.cinepolisklic.com/cmsklicia/movieimages/minions/poster_originalsize_250X375.jpg"
 
   const jsonData = {
     "movies" : [
@@ -40,7 +41,7 @@ function App() {
     <main>
       {/*SECCION INICIO*/}
       <section id="inicio">
-        <img src=""/>
+        <img src="https://www.cinepolis.com.ar/images/4d/4d-3.jpg"/>
         <div class="bloque-inicio">
           <h1>Bienvenidos a Cinépolis</h1>
           <p>
@@ -59,7 +60,35 @@ function App() {
             <div class="columna columa-33">
               <div class="bloque-servicio">
                 <div class="bloque-img-servicio cuadrado-perfecto">
-                  <img src=""/>
+                  <img src={image}/>
+                </div>
+                <div class="bloque-contenido-servicio">
+                  <h3>{name}</h3>
+                  <p>{description}</p>
+                  <a href="#" class="boton boton-blanco">Ver más</a>
+                </div>
+              </div>
+            </div>
+
+             {/* Segunda pélicula */}
+             <div class="columna columa-33">
+              <div class="bloque-servicio">
+                <div class="bloque-img-servicio cuadrado-perfecto">
+                  <img src={image}/>
+                </div>
+                <div class="bloque-contenido-servicio">
+                  <h3>{name}</h3>
+                  <p>{description}</p>
+                  <a href="#" class="boton boton-blanco">Ver más</a>
+                </div>
+              </div>
+            </div>
+
+             {/* Tercer pélicula */}
+             <div class="columna columa-33">
+              <div class="bloque-servicio">
+                <div class="bloque-img-servicio cuadrado-perfecto">
+                  <img src={image}/>
                 </div>
                 <div class="bloque-contenido-servicio">
                   <h3>{name}</h3>
